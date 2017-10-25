@@ -44,12 +44,12 @@ Usage
                                     
                                     }'
                                 ]
-                            ])```
+                            ])
+```
   
 in custom-controlller/customer-action
 -----
-```
-$query = Yii::$app->request->get('query');
+```$query = Yii::$app->request->get('query');
         if (!empty($phone)) {
             $find = MyModel::find()->andFilterWhere(['like','column_name',$query]);
             $allModels = $find->column();
