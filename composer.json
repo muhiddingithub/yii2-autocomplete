@@ -1,8 +1,20 @@
 {
     "name": "muhiddingithub/yii2-autocomplete",
-    "description": "Jquery UI autocomplete",
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "muhiddingithub/yii2-autocomplete": "*"
+    "description": "Multiple select element",
+    "type": "yii2-extension",
+    "keywords": ["muhiddin","autocomplete","yii2","extension","search","widget","jquery-ui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muxiddin Jumaniyazov",
+            "email": "hellomyhp@gmail.com"
+        }
+    ],
+
+   "minimum-stability":"dev",
+    "autoload": {
+        "psr-4": {
+            "muhiddin\\autocomplete\\": ""
+        }
     }
 }
