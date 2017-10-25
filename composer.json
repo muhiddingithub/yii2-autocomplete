@@ -1,0 +1,8 @@
+{
+    "name": "muhiddingithub/yii2-autocomplete",
+    "description": "Jquery UI autocomplete",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "muhiddingithub/yii2-autocomplete": "*"
+    }
+}
