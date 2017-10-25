@@ -26,14 +26,17 @@ Usage
 
 
 ```php 
-    echo echo \muhiddin\autocomplete\AutoComplete::widget([
+    echo  \muhiddin\autocomplete\AutoComplete::widget([
                                 'id' => 'search',
-                                'value' => isset($_GET['full_name'])?$_GET['full_name']:'',
-                                'name' => 'full_name',
+                                'form'=>$form, // ActiveForm widget object
+                                'model'=>$model, // model
+                                'attribute'=>'model_attribute', // attribute of model
+                                'value' => '',
+                                'name' => 'name',
                                 'options' => [
                                     'class' => 'form-control form-group-margin',
                                     'dir' => "ltr",
-                                    'placeholder' => "full name",
+                                    'placeholder' => "search",
                                 ],
                                 'pluginOptions' => [
                                     'minChars' => 3,
