@@ -1,6 +1,5 @@
 # yii2-autocomplete
 yii2-autocomplete jquery ui
-# yii2-multiple-select
 Installation
 ------------
 
@@ -45,12 +44,10 @@ Usage
                                     
                                     }'
                                 ]
-                            ])
-        
-       ```
+                            ])```
   
 in custom-controlller/customer-action
----
+-----
 ```
 $query = Yii::$app->request->get('query');
         if (!empty($phone)) {
