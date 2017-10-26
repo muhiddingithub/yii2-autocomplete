@@ -1,6 +1,6 @@
 {
     "name": "muhiddingithub/yii2-autocomplete",
-    "description": "Multiple select element",
+    "description": "yii2-autocomplete jquery ui",
     "type": "yii2-extension",
     "keywords": ["muhiddin","autocomplete","yii2","extension","search","widget","jquery-ui"],
     "license": "MIT",
