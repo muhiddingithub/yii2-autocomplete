@@ -52,8 +52,9 @@ Usage
   
 in custom-controlller/customer-action
 -----
-```$query = Yii::$app->request->get('query');
-        if (!empty($phone)) {
+```
+$query = Yii::$app->request->get('query');
+        if (!empty($query)) {
             $find = MyModel::find()->andFilterWhere(['like','column_name',$query]);
             $allModels = $find->column();
             echo json_encode([
